@@ -5,7 +5,6 @@ variable "instances" {
     ami_id          = string
     root_volume_type = string
     root_volume_size = number
-    key_name        = string
     environment     = string
     owner           = string
   }))
